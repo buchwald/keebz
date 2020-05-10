@@ -257,17 +257,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 4600 3400 4600
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5EB7523E
-P 2800 4000
-F 0 "U1" H 2800 2111 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2800 2020 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2800 4000 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2800 4000 50  0001 C CNN
-	1    2800 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C3
 U 1 1 5EB9DE34
 P 1000 2600
@@ -590,4 +579,15 @@ Text GLabel 7500 4450 0    50   Input ~ 0
 ROW0
 Text GLabel 7500 5300 0    50   Input ~ 0
 ROW1
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5EB7523E
+P 2800 4000
+F 0 "U1" H 2800 2111 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2800 2020 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2800 4000 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2800 4000 50  0001 C CNN
+	1    2800 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
